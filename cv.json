@@ -1,0 +1,110 @@
+{
+    "basics": {
+      "name": "Fei Mosqueda",
+      "label": "Front developer JUNIOR",
+      "image": "https://media.licdn.com/dms/image/D4D03AQFX8Nmy4xEdtQ/profile-displayphoto-shrink_800_800/0/1692984205842?e=1713398400&v=beta&t=DEYCR8yHIy99-m9wX9K4g0Huu4NW4gZAmgCj85S7Fuk",
+      "email": "feimosqueda777@gmail.com",
+      "phone": "(912) 555-4321",
+      "url": "https://johndoe.com",
+      "summary": "Soy Fei me gustan los gatos, los videojuegos, me gusta mayormente la parte del front end y no me molestaria trabajar gratis para aprender",
+      "location": {
+        "address": "44 entre 8 y 9",
+        "postalCode": "1904",
+        "city": "la plata",
+        "countryCode": "AR",
+        "region": "Buenos Aires"
+      },
+      "profiles": [{
+        "network": "Github",
+        "username": "feimb",
+        "url": "https://github.com/feimb"
+      }]
+    },
+    "work": [{
+      "name": "Company",
+      "position": "President",
+      "url": "https://company.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Started the company"
+      ]
+    }],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "University",
+      "url": "https://institution.com/",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2011-01-01",
+      "endDate": "2013-01-01",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [{
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [{
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    }]
+  }
