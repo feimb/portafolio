@@ -1,8 +1,10 @@
 ---
 import Section from "../Section.astro"
 import { basics } from "@cv";
+import Mail from "../../icons/mail.astro"
 
-const { name, label, image } = basics
+const { name, label, image, email, location } = basics
+const { region, city } = location
 ---
 
 <Section>
@@ -10,11 +12,27 @@ const { name, label, image } = basics
         <div class="info">
             <h1>{name}</h1>
             <h2>{label}</h2>
-            
-            <figure>
-                <img src={image} alt={name}>
-            </figure>
+            <span>
+                {region},{region}
+            </span>
+            <footer>
+                {
+                    email && (
+                        <a
+                            href={`mailito:${email}`}
+                            title={`eviar un correo electronico a ${name} al correo ${email}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                        <Mail />
+                        </a>
+                    )
+                }
+            </footer>
         </div>
+        <figure>
+            <img src={image} alt={name}>
+        </figure>
     </div>
 </Section>
 
