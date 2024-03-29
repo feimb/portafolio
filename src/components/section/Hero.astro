@@ -13,7 +13,7 @@ const { region, city } = location
             <h1>{name}</h1>
             <h2>{label}</h2>
             <span>
-                {region},{region}
+                {region},{city}
             </span>
             <footer>
                 {
@@ -37,5 +37,31 @@ const { region, city } = location
 </Section>
 
 <style>
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    h2{
+        font-size: .8rem;
+		line-height: 1.6;
+        font-weight: 400;
+        margin: 0;
+        color: #777;
+        width: 320px;
+    }
+    span{
+        font-size: .8rem;
+		line-height: 1.6;
+        font-weight: 400;
+        margin: 0;
+        color: #777;
+    }
+    figure img{
+        width: 120px;
+        height: 120px;
+        margin-top: 40px;
+        border-radius: 16px;
+    }
     
 </style>
