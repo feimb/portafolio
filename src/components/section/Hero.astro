@@ -1,10 +1,31 @@
 ---
 import Section from "../Section.astro"
 import { basics } from "@cv";
-import Mail from "../../icons/mail.astro"
+import Mail from "@/icons/mail.astro"
+import Phone from "@/icons/phone.astro"
+import Github from "@/icons/github.astro";
+import Linkedin from "@/icons/linkedin.astro";
+import Html from "@/icons/html.astro";
+import Css from "@/icons/css.astro";
+import Git from "@/icons/git.astro";
+import Javacript from "@/icons/javacript.astro";
+import React from "@/icons/react.astro";
 
-const { name, label, image, email, location } = basics
+const { name, label, image, email, phone, location, profiles } = basics
 const { region, city } = location
+
+const SOCIAL_ICONS: Record<string, any> ={
+    Github,
+    Linkedin
+}
+
+const ABILITY_ICONS: Record<string, any> ={
+    Html,
+    Css,
+    Git,
+    Javacript,
+    React
+}
 ---
 
 <Section>
@@ -16,6 +37,7 @@ const { region, city } = location
                 {region},{city}
             </span>
             <footer>
+                
                 {
                     email && (
                         <a
@@ -28,6 +50,36 @@ const { region, city } = location
                         </a>
                     )
                 }
+                {
+                    phone && (
+                        <a
+                            href={`tel:${phone}`}
+                            title={`llama al telefo de ${name} al ${phone}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                        <Phone />
+                        </a>
+                    )
+                }
+                {
+                    profiles.map(({ network, url, username })=>{
+                        const Icon = SOCIAL_ICONS[network]
+
+                        return(
+                            <a 
+                            href={url}
+                            title={`visita el perfil de ${name} en ${network}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                            <Icon />
+                            </a>
+                        )
+                    })
+
+                    
+                }
             </footer>
         </div>
         <figure>
@@ -39,16 +91,25 @@ const { region, city } = location
 <style>
     .container{
         display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        gap: 1rem;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-right: 32px;
+    }
+    h1{
+        font-size: 2rem;
     }
     h2{
-        font-size: .8rem;
-		line-height: 1.6;
-        font-weight: 400;
-        margin: 0;
-        color: #777;
-        width: 320px;
+        font-size: 1.1rem;
+		text-wrap: balance;
+        font-weight: 500;
+        color: #444;
     }
     span{
         font-size: .8rem;
@@ -58,10 +119,27 @@ const { region, city } = location
         color: #777;
     }
     figure img{
-        width: 120px;
-        height: 120px;
-        margin-top: 40px;
+        width: 100px;
+        height: 100px;
         border-radius: 16px;
     }
-    
+    footer{
+        gap: 4px;
+        margin-top: 8px;
+    }
+    footer a{
+        color: #777;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #eee;
+        padding: 4px;
+        width: 32px;
+        height: 32px;
+        border-radius: 6px;
+        transition: all .3s ease;
+    }
+    footer a:hover{
+        background-color: #ccc;
+    }
 </style>

@@ -2,7 +2,7 @@
     "basics": {
       "name": "Fei Mosqueda",
       "label": "Front developer trainee con un gato guapo, y siempre dispuesto a apernder",
-      "image": "https://media.licdn.com/dms/image/D4D03AQFX8Nmy4xEdtQ/profile-displayphoto-shrink_800_800/0/1692984205842?e=1713398400&v=beta&t=DEYCR8yHIy99-m9wX9K4g0Huu4NW4gZAmgCj85S7Fuk",
+      "image": "https://avatars.githubusercontent.com/u/117238821?s=400&u=f67b5b22890a4af7c147ad176f74f1ba1a871224&v=4",
       "email": "feimosqueda777@gmail.com",
       "phone": "(912) 555-4321",
       "url": "https://johndoe.com",
@@ -18,7 +18,13 @@
         "network": "Github",
         "username": "feimb",
         "url": "https://github.com/feimb"
-      }]
+      },
+      {
+        "network": "Linkedin",
+        "username": "fei mosqueda",
+        "url": "https://www.linkedin.com/in/fei-mosqueda-934036260/"
+      }
+    ]
     },
     "work": [{
       "name": "Company",
