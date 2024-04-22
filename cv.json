@@ -80,12 +80,11 @@
       "summary": "Description…"
     }],
     "skills": [{
-      "name": "Web Development",
-      "level": "Master",
       "keywords": [
         "HTML",
         "CSS",
-        "JavaScript"
+        "JavaScript",
+        "React"
       ]
     }],
     "languages": [{
