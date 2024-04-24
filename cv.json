@@ -1,7 +1,7 @@
 {
     "basics": {
       "name": "Fei Mosqueda",
-      "label": "Front developer trainee con un gato guapo, y siempre dispuesto a apernder",
+      "label": "Front developer trainee con un gato guapo, y siempre dispuesto a aprender",
       "image": "https://avatars.githubusercontent.com/u/117238821?s=400&u=f67b5b22890a4af7c147ad176f74f1ba1a871224&v=4",
       "email": "feimosqueda777@gmail.com",
       "phone": "(912) 555-4321",
@@ -49,16 +49,12 @@
       ]
     }],
     "education": [{
-      "institution": "University",
+      "institution": "Escuela N°31",
       "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
+      "area": "Ciencias Naturales",
+      "studyType": "secundario",
+      "startDate": "2019",
+      "endDate": "2024"
     }],
     "awards": [{
       "title": "Award",
