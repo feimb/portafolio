@@ -3,6 +3,8 @@ import Section from "../Section.astro"
 
 import { skills } from "@cv"
 const { keywords } = skills[0]
+
+
 ---
 
 <Section title="Skills">
@@ -10,7 +12,10 @@ const { keywords } = skills[0]
         {
             keywords.map((name) =>{
                 return(
-                    <li><span>{name}</span></li>
+                    <li>
+                        <span>{name}</span>
+                    </li>
+                    
                 )
                 
             })

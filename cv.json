@@ -77,9 +77,9 @@
     }],
     "skills": [{
       "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript",
+        "Html",
+        "Css",
+        "Javascript",
         "React"
       ]
     }],
@@ -99,12 +99,42 @@
       "reference": "Reference…"
     }],
     "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+      "name": "Calculadora JS",
+      "description": "Una calculadora que puede hacer operaciones basicas",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Html",
+        "Js",
+        "Css"
+      ],
+      "url": "https://project.com/"
+    },
+    {
+      "name": "Calculadora JS",
+      "description": "Una calculadora que puede hacer operaciones basicas",
+      "highlights": [
+        "Html",
+        "Js",
+        "Css"
+      ],
+      "url": "https://project.com/"
+    },
+    {
+      "name": "Calculadora JS",
+      "description": "Una calculadora que puede hacer operaciones basicas",
+      "highlights": [
+        "Html",
+        "Js",
+        "Css"
+      ],
+      "url": "https://project.com/"
+    },
+    {
+      "name": "Calculadora JS",
+      "description": "Una calculadora que puede hacer operaciones basicas",
+      "highlights": [
+        "Html",
+        "Js",
+        "Css"
       ],
       "url": "https://project.com/"
     }]

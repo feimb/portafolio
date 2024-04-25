@@ -1,6 +1,92 @@
 ---
 import Section from "../Section.astro"
 
+import { projects } from "@cv"
+
 ---
 
-<Section title="Project">
+<Section title="Projects">
+    <!-- <article class="card">
+        <header>
+            <a href="">
+                <h3></h3>
+            </a>
+            <p></p>
+        </header>
+        <footer>
+            <ul>
+
+            </ul>
+        </footer>
+    </article> -->
+    <ul>
+        {
+            projects.map(({ name, description, highlights, url }) => {
+                return(
+                    <article>
+                        <header>
+                            <a href={url} title={`visita el proyecto de ${name}`}>
+                                <h3>{name}</h3>
+                            </a>
+                            <p>{description}</p>
+                        </header>
+                        <footer>
+                                {
+                                highlights.map((highlight)=>{
+                                    return <span>{highlight}</span>
+                                })
+                                }  
+                        </footer>
+                    </article>
+                )
+            })
+        }
+    </ul>
+
+</Section>
+<style>
+    ul{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+        gap: 1rem;
+    }
+    article{
+        border-radius: 8px;
+        border: 1px solid #f2f2f2;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        height: 100%;
+    }
+    article header{
+        flex: 1;
+    }
+    article h3{
+        margin-bottom: 4px;
+    }
+    article a{
+        color: #111;
+    }
+    article a:hover{
+        text-decoration: underline;
+    }
+    footer{
+        display: flex;
+        
+        flex-wrap: wrap;
+        gap: 4px;
+        font-size: 0.6rem;
+    }
+   
+    footer span {
+        border-radius: 6px;
+        background: #eee;
+        color: #666;
+        font-size: 0.6rem;
+        font-weight: 500;
+        padding: 0.2rem 0.6rem;
+    
+    }
+
+</style>
