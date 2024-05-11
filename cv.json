@@ -5,7 +5,6 @@
       "image": "https://avatars.githubusercontent.com/u/117238821?s=400&u=f67b5b22890a4af7c147ad176f74f1ba1a871224&v=4",
       "email": "feimosqueda777@gmail.com",
       "phone": "(912) 555-4321",
-      "url": "https://johndoe.com",
       "summary": "Soy Fei me gustan los gatos, los videojuegos, me gusta mayormente la parte del front end y no me molestaria trabajar gratis para aprender",
       "location": {
         "address": "44 entre 8 y 9",
@@ -26,28 +25,6 @@
       }
     ]
     },
-    "work": [{
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Started the company"
-      ]
-    }],
-    "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }],
     "education": [{
       "institution": "Escuela N°31",
       "url": "https://institution.com/",
@@ -55,25 +32,14 @@
       "studyType": "secundario",
       "startDate": "2019",
       "endDate": "2024"
-    }],
-    "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }],
-    "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }],
-    "publications": [{
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+    },
+    {
+      "institution": "Escuela N°31",
+      "url": "https://institution.com/",
+      "area": "Ciencias Naturales",
+      "studyType": "secundario",
+      "startDate": "2019",
+      "endDate": "2024"
     }],
     "skills": [{
       "keywords": [
@@ -82,21 +48,6 @@
         "Javascript",
         "React"
       ]
-    }],
-    "languages": [{
-      "language": "English",
-      "fluency": "Native speaker"
-    }],
-    "interests": [{
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }],
-    "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
     }],
     "projects": [{
       "name": "Calculadora JS",
